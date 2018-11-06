@@ -1,12 +1,67 @@
-.box {
+body {
+
+margin: 0;
+padding: 0;
+
+}
+
+
+.box  {
 
 width: calc(25% - 10px);
 margin:5px;
 height: 100px;
 padding: 5px;
-background-color: gray;
+background-color: #fff;
 box-sizing: border-box;
 float:left;
 
+}
+
+
+.logo {
+
+  width: 90%;
+  margin-left: 10%;
+  float: left;
+
+}
+
+
+.parrafocolumna {
+
+float: left;
+width: 100%;
+
+}
+
+.contenedor{
+
+width: 100%;
+margin-top: 30px;
+
+
+}
+
+ul {
+
+  padding: 10px 0;
+  background-color: green;
+  height: 40px;
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  float: left;
+  list-style: none;
+  text-align: center;
+}
+
+nav > ul > li {
+
+width: calc(25% - 2px);
+margin-right: 2px;
+float: left;
+
+}
 
 }
