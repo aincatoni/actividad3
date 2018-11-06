@@ -39,8 +39,17 @@ width: 100%;
 
 width: 100%;
 margin-top: 30px;
+float: left;
 
 
+}
+
+nav {
+
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+  min-height: 40px;
 }
 
 ul {
@@ -54,6 +63,7 @@ ul {
   float: left;
   list-style: none;
   text-align: center;
+  margin: 0 auto;
 }
 
 nav > ul > li {
@@ -63,5 +73,16 @@ margin-right: 2px;
 float: left;
 
 }
+
+}
+
+li  a:visited {
+
+  color: #fff;
+}
+
+li a {
+
+color: #FFF;
 
 }
