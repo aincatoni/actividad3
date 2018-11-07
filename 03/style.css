@@ -1,0 +1,186 @@
+body {
+
+width: 100%;
+height: auto;
+margin: 0 auto;
+text-align: center;
+
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+
+#banderas-cuatro {
+
+  width: 80%;
+  height: 80%;
+  margin: 10px auto;
+  text-align: center;
+  border: 1px solid #b5b3b3;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+
+
+/* espania  */
+
+.espania {
+float: left;
+width:calc(50% - 5px);
+height: 200px;
+margin-right: 5px;
+}
+
+.rojo {
+
+float: left;
+background-color: red;
+width: 100%;
+height: 30%;
+}
+
+.amarillo {
+
+  float: left;
+  background-color: yellow;
+  width: 100%;
+  height: 30%;
+}
+
+/* dinamarca  */
+
+.dinamarca {
+
+  float: left;
+  width:calc(50% - 5px);
+  height: 200px;
+  margin-right: 5px;
+}
+
+.left-din {
+
+float: left;
+width:calc(20% - 10px);
+background-color: red;
+margin-right: 10px;
+height: 100%;
+
+
+}
+
+
+.right-din {
+
+float: left;
+width: calc(80% - 10px);
+background-color: red;
+height: 100%;
+margin-left: 10px;
+
+
+}
+
+
+.up-din {
+
+  float: left;
+  background-color: white;
+  margin-bottom: 30px;
+  height:calc(50% - 30px);
+  width: 100%;
+
+
+
+}
+
+.down-din {
+
+  float: left;
+  background-color: white;
+  margin-bottom: 30px;
+  height: calc(50% - 20px);
+  width: 100%;
+
+}
+
+/* emiratos  */
+
+
+.emiratos {
+  float: left;
+  width:calc(50% - 5px);
+  height: 200px;
+  margin-right: 5px;
+
+}
+
+.left-emi {
+
+float: left;
+width: 20%;
+height: 100%;
+background-color: red;
+}
+
+.right-emi {
+
+float: left;
+height: 100%;
+width: 80%;
+}
+
+.emi-green, .emi-white, .emi-black {
+
+  float: left;
+  width: 100%;
+  height: 33.3%
+
+
+}
+.emi-green {
+
+  background-color: green;
+
+}
+
+.emi-white {
+
+  background-color: white;
+
+}
+
+
+.emi-black {
+
+
+  background-color: black;
+
+}
+
+/* japon  */
+
+
+.japon {
+
+  float: left;
+  width:calc(50% - 7px);
+  height: 200px;
+  margin-right: 5px;
+  background-color: white;
+  border: 1px solid grey;
+}
+
+.solnaciente {
+
+  width: 25%;
+  height: 50%;
+  background-color: red;
+  margin: 10% auto;
+  border-radius: 50%;
+
+
+}
