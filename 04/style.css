@@ -1,11 +1,29 @@
 section {
-    background-color:#b0ccab;
+  background-color: #b0ccab;
+  padding: 30px;
+  box-sizing: border-box;
+  width: 80%;
+  height: auto;
+  margin: 20px auto;
 
+}
+
+p {
+
+  float: left;
+  width: 90%;
+  margin-right: 10%;
 }
 
 #fijado {
 
-position:fixed;
-left:40px;
+  float: left;
+  width: 90%;
+  margin-left: 10%;
 
+}
+
+.clearfix {
+
+  clear: both;
 }
